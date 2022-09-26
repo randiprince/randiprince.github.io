@@ -1,0 +1,41 @@
+nav {
+	text-align: center;
+	padding: 10px;
+	outline: 1px solid pink;
+}
+
+.nav-ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+	max-width: 75%;
+	margin: 0 auto;
+	padding-inline-start: 0;
+	flex-wrap: wrap;
+    }
+
+.nav-li a {
+        font-weight: bold;
+        color: red;
+        padding: 5px;
+        text-decoration: none;
+    }
+
+.nav-li a:hover {
+        text-decoration: underline;
+	color: green;
+    }
+
+section#my-dogs {
+	font-size: 24px;
+}
+
+div:nth-child(1) {
+        background-color: aqua;
+        color: blue;
+        font-size: 18px;
+    }
+ .h1 {
+        color: yellow;
+    }
