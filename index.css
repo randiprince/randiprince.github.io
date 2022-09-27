@@ -31,11 +31,31 @@ section#my-dogs {
 	font-size: 24px;
 }
 
-div:nth-child(1) {
+div {
         background-color: aqua;
         color: blue;
         font-size: 18px;
+	margin-bottom: 1rem;
     }
+#my-dogs div:nth-child(2) {
+	border: 5px dotted yellow;
+}
  .h1 {
-        color: yellow;
+        color: purple;
     }
+button {
+	color: black;
+	border: 2px solid #D3BBEA;
+	padding: 15px 30px;
+	font-size: 16px;
+	cursor: pointer;
+	background-color: white;
+	display: block;
+}
+.img-div {
+	max-width: 900px;
+}
+.img-div img {
+	width: 100%;
+	height: auto;
+}

@@ -40,12 +40,7 @@
                 <p>unlike p tags which are block elements!</p>
             </div>
 	<button onclick="alert('You clicked me!')"><strong>Click me!</strong></button>
-	<label>This is an input box, type something:</label>
- 	 <input type="text">
-	<div class="img-div">
-		<p>Here is delicate arch! </p>
-		<img src="https://packedagain.com/wp-content/uploads/2021/02/feature_delicate-arch.jpg" alt="delicate arch" />
-	</section> 
+        </section> 
     </body>
 </html>
 
